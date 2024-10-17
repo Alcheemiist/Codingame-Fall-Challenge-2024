@@ -12,7 +12,7 @@ The game is played over **20 lunar months**, each consisting of **20 days**.
 
 
 ## Scoring
-our goal is to maximize your score before the end of the simulation. Points are awarded based on astronauts reaching their targets:
+our goal is to maximize the score before the end of the simulation. Points are awarded based on astronauts reaching their targets:
 - **Up to 100 points** for each astronaut:
   - **Speed:** 50 points, minus the number of days taken to reach the destination.
   - **Population Balance:** 50 points, minus the number of astronauts who have already reached the same module in the current lunar month (negative scores reset to 0).
