@@ -48,5 +48,14 @@ My solution is a simulation for managing a space station's construction, where d
 - **Space Station Expansion**: As new modules or landing pads are added, the system optimally connects them to the existing infrastructure.
 - **Resource Management**: By efficiently connecting buildings, the solution enhances the management of resources and astronauts on the space station.
 
-## Source Code
+### Conclusion
+This solution provides a structured approach to managing a space station's buildings and their connections. It allows for efficient growth and resource management, ensuring the station can adapt as new buildings are added.
+
+### Results
+
+![Results Diagram](./p1.png)
+![Results Diagram](./p2.png)
+
+
+## 6. Source Code
 The game's source code is available [here](#) (https://github.com/CodinGame/FallChallenge2024-SeleniaCity).
