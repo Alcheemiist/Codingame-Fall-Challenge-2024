@@ -21,40 +21,7 @@ Your goal is to maximize your score before the end of the simulation. Points are
 ### Example Scenarios
 - Details on scoring examples can be added here.
 
-## 4. Implementation
-Each lunar month occurs in **4 stages**:
-
-1. **City Parsing**
-   - Your code receives information about new constructions in Selenia City.
-   
-   **Program Input:**  
-   - Details on program input can be added here.
-
-2. **Transport Infrastructure Improvements**
-   - Modify the city by implementing actions to enhance its transportation network.
-   
-   **Allowed Actions:**  
-   - Details on allowed actions can be added here.
-
-3. **Astronaut Movement**
-   - After implementing network modifications, astronauts will autonomously move towards their target modules over **20 days**.
-
-   **Movement Simulation:**  
-   - Details on movement simulation can be added here.
-
-4. **End of the Lunar Month**
-   - At the end of each month, remaining astronauts disappear and all pods return to their starting points. Unused resources yield **10% interest** (rounded down).
-
-### Constraints
-- Up to **150 buildings** may be constructed.
-- Each landing pad accommodates between **1 and 100 astronauts** monthly.
-- Up to **1000 astronauts** can arrive each month.
-- No building will obstruct existing tubes.
-- Your program must return its list of actions within **500 milliseconds** (or **1000 milliseconds** for the first turn).
-- Every astronaut arriving at a landing pad will have at least **1 module** of the same type already constructed.
-
-
-## 5. Solution Summary
+## 4. Implementation Summary
 
 ### Overview
 The provided solution is a simulation for managing a space station's construction, where different types of buildings are connected to facilitate movement and resource management. The core components include the management of landing pads, modules, routes, and the connection of new buildings based on their types and existing structures.
