@@ -1,10 +1,9 @@
 #  Codingame-Fall-Challenge-2024 : Selenia City Transportation Network
 
-## 1. Statement
-### Objective
+## Objective
 Welcome to **Selenia City**, the first city on the moon, set to be inaugurated in **2050**! As the architect of the first lunar transportation network, your task is to develop a dynamic solution adaptable to evolving city layouts. After your victory in the planetary programming games, you have been entrusted with designing the artificial intelligence for this ambitious project.
 
-## 2. Rules
+## Rules
 The game is played over **20 lunar months**, each consisting of **20 days**. 
 
 ### Monthly Cycle
@@ -12,19 +11,16 @@ The game is played over **20 lunar months**, each consisting of **20 days**.
 - Utilize your resources to connect new buildings to the transportation network or reinforce existing infrastructure.
 
 
-## 3. Scoring
-Your goal is to maximize your score before the end of the simulation. Points are awarded based on astronauts reaching their targets:
+## Scoring
+our goal is to maximize your score before the end of the simulation. Points are awarded based on astronauts reaching their targets:
 - **Up to 100 points** for each astronaut:
   - **Speed:** 50 points, minus the number of days taken to reach the destination.
   - **Population Balance:** 50 points, minus the number of astronauts who have already reached the same module in the current lunar month (negative scores reset to 0).
 
-### Example Scenarios
-- Details on scoring examples can be added here.
-
-## 4. Implementation Summary
+## Implementation Summary
 
 ### Overview
-The provided solution is a simulation for managing a space station's construction, where different types of buildings are connected to facilitate movement and resource management. The core components include the management of landing pads, modules, routes, and the connection of new buildings based on their types and existing structures.
+My solution is a simulation for managing a space station's construction, where different types of buildings are connected to facilitate movement and resource management. The core components include the management of landing pads, modules, routes, and the connection of new buildings based on their types and existing structures.
 
 ### Key Components
 
@@ -52,8 +48,5 @@ The provided solution is a simulation for managing a space station's constructio
 - **Space Station Expansion**: As new modules or landing pads are added, the system optimally connects them to the existing infrastructure.
 - **Resource Management**: By efficiently connecting buildings, the solution enhances the management of resources and astronauts on the space station.
 
-### Conclusion
-This solution provides a structured approach to managing a space station's buildings and their connections. It allows for efficient growth and resource management, ensuring the station can adapt as new buildings are added.
-
-## 6. Source Code
+## Source Code
 The game's source code is available [here](#) (https://github.com/CodinGame/FallChallenge2024-SeleniaCity).
